@@ -231,10 +231,10 @@ class goods
 }
 $good1 = new goods("Samsung S9 plus", "Китае", "хорошее", 2); 
 echo "<pre>";
-print_r("Стоимость: " . $good1->region(2));
+print_r("Доставка: " . $good1->region(2));
 echo "</pre>";
 $good2 = new goods("Aplle Iphone 8plus", "Америке", "выше среднего", 1); 
 echo "<pre>";
-print_r("Стоимость: " . $good2->region(1));
+print_r("Доставка: " . $good2->region(1));
 echo "</pre>";
 ?>
